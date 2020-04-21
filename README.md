@@ -1,6 +1,6 @@
 # Machine Learning Assignment 03
 
-Option 02:
+Option 02:  
 Clustering image meta-data
 
 ## Process
