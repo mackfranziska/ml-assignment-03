@@ -15,7 +15,7 @@ I replaced all NaN values with zeros:
 data['representation'] = data['representation'].replace(np.nan, 0)
 ```
 And further replaced strings (in 'primary_medium'
-an 'art_movement') by assigning them a unique integerFi:
+an 'art_movement') by assigning them a unique integer:
 ```
 # perform value count
 vc_am = am['art_movement'].value_counts()
