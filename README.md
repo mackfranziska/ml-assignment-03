@@ -47,11 +47,11 @@ mm_X = mm.fit_transform(X)
 ### Fitting K-Means
 The inertia plot shows an elbow around n=10: 
 
-![inertia plot](/img/inertia_scores.png)  
+![inertia plot](/images/inertia_scores.png)  
 
 The average silhouette score peaks at n=9 with 0.645632800066643, which is why I chose n=9 as my final fit for k-means.  
 Following the silhoutte plot:
 
-![silhouette plot](/img/silhouette_plot.png)
+![silhouette plot](/images/silhouette_plot.png)
 
 Please reference the jupyter notebook to see the clustered images.
